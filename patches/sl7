@@ -1,0 +1,9 @@
+Bottom: 46dd3aa1bec0b200932771b059a4c649bde52a96
+Top:    46dd3aa1bec0b200932771b059a4c649bde52a96
+Author: scott snyder <snyder@bnl.gov>
+Date:   2023-12-15 14:33:00 -0500
+
+Recognize Scientific Linux 7.
+    
+Scientific Linux 7 identifies itself as RHEL.  Test for that as well
+as Centos7 in the setup scripts.
